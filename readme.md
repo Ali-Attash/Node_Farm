@@ -76,7 +76,7 @@ Based on the pathname, the server decides which HTML content to return
 The fillTemplate() helper injects product values into placeholders
 
 ## 📦 Sample Product Data
-
+```
 {
   "id": 0,
   "productName": "Fresh Avocados",
@@ -88,6 +88,7 @@ The fillTemplate() helper injects product values into placeholders
   "description": "Delicious and fresh avocados",
   "organic": true
 }
+```
 
 ## 📌 Notes
 
