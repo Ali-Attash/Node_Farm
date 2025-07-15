@@ -12,7 +12,7 @@ project-root/
 │   ├── template-overview.html # HTML layout for the overview page
 │   ├── template-product.html  # HTML layout for individual product pages
 │   └── template-card.html
-
+```
 
 ## 🚀 Features
 
