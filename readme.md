@@ -3,7 +3,7 @@
 This is a simple vanilla Node.js server that dynamically serves an overview page and detailed product pages using HTML templates and a local JSON data file. No frameworks (like Express) are used — only core Node.js modules.
 
 # 📁 Project Structure
-//
+
 ├── dev-data/
 │   └── data.json               # Product data in JSON format
 ├── templates/
@@ -13,7 +13,7 @@ This is a simple vanilla Node.js server that dynamically serves an overview page
 ├── style.css                  # Optional styling file (served separately)
 ├── server.js                  # Main Node.js server logic
 └── README.md                  # Project documentation
-//
+
 ## 🚀 Features
 
 Uses http, fs, and url core modules
@@ -30,7 +30,7 @@ Great for learning raw Node.js fundamentals
 
 1. Clone the Repository
 
-git clone https://github.com/your-username/product-overview-node.git
+git clone https://github.com/Ali-Attash/product-overview-node.git
 cd product-overview-node
 
 2. Install Dependencies
