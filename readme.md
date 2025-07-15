@@ -1,20 +1,20 @@
-🛒 Product Overview Node.js App
+# 🛒 Product Overview Node.js App
 
 This is a simple vanilla Node.js server that dynamically serves an overview page and detailed product pages using HTML templates and a local JSON data file. No frameworks (like Express) are used — only core Node.js modules.
 
-📁 Project Structure
+# 📁 Project Structure
 
 ├── dev-data/
-│ └── data.json # Product data in JSON format
+│   └── data.json               # Product data in JSON format
 ├── templates/
-│ ├── template-overview.html # HTML layout for the overview page
-│ ├── template-product.html # HTML layout for individual product pages
-│ └── template-card.html # Template for reusable product cards
-├── style.css # Optional styling file (served separately)
-├── server.js # Main Node.js server logic
-└── README.md # Project documentation
+│   ├── template-overview.html # HTML layout for the overview page
+│   ├── template-product.html  # HTML layout for individual product pages
+│   └── template-card.html     # Template for reusable product cards
+├── style.css                  # Optional styling file (served separately)
+├── server.js                  # Main Node.js server logic
+└── README.md                  # Project documentation
 
-🚀 Features
+##🚀 Features
 
 Uses http, fs, and url core modules
 
@@ -28,22 +28,24 @@ Great for learning raw Node.js fundamentals
 
 🔧 Setup
 
-Clone the Repository
+1. Clone the Repository
 
 git clone https://github.com/your-username/product-overview-node.git
 cd product-overview-node
 
-Install Dependencies
-No need — it uses core modules only!
+2. Install Dependencies
 
-Run the Server
+No dependencies needed! Core Node.js only.
+
+3. Run the Server
 
 node server.js
 
-Open in Browser
-Navigate to http://localhost:3030
+4. Open in Browser
 
-🌐 Available Routes
+Go to http://localhost:3030
+
+##🌐 Available Routes
 
 Route
 
@@ -61,41 +63,41 @@ Shows detailed view for a product
 
 Returns raw product data (JSON format)
 
-🧠 How It Works
+##🧠 How It Works
 
-server.js reads HTML templates and data from file system once on startup.
+server.js reads HTML templates and product data from the file system at startup.
 
-When a request comes in, the server:
+When a request is received:
 
-Parses the URL using url.parse()
+The URL is parsed using url.parse()
 
-Checks the pathname and responds accordingly
+Based on the pathname, the server decides which HTML content to return
 
-Uses a fillTemplate() helper to inject product data into HTML placeholders
+The fillTemplate() helper injects product values into placeholders
 
-📦 Example Data Format (JSON)
+##📦 Sample Product Data
 
 {
-"id": 0,
-"productName": "Fresh Avocados",
-"image": "🥑",
-"price": 4.99,
-"quantity": "1kg",
-"nutrients": "Vitamin B, K",
-"from": "Mexico",
-"description": "Delicious and fresh avocados",
-"organic": true
+  "id": 0,
+  "productName": "Fresh Avocados",
+  "image": "🥑",
+  "price": 4.99,
+  "quantity": "1kg",
+  "nutrients": "Vitamin B, K",
+  "from": "Mexico",
+  "description": "Delicious and fresh avocados",
+  "organic": true
 }
 
-📌 Notes
+##📌 Notes
 
-This app is not production-ready, but it’s a great learning project for understanding how servers work at a low level.
+This project is meant for educational purposes and basic Node.js practice.
 
-Feel free to expand it with CSS, client-side JS, or even transition to Express.js later.
+You can expand this by adding CSS, static file serving, or migrate to Express.js for advanced routing and middleware.
 
-📚 Author
+##👨‍💻 Author
 
-Made with 💻 by Ali Attash Saify as part of learning from Jonas Schmedtmann's Node.js Bootcamp.
+Created by Ali Attash SaifyInspired by the Jonas Schmedtmann Node.js Bootcamp
 
 📜 License
 
