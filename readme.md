@@ -97,7 +97,7 @@ You can expand this by adding CSS, static file serving, or migrate to Express.js
 
 ## 👨‍💻 Author
 
-Created by Ali Attash SaifyInspired by the Jonas Schmedtmann Node.js Bootcamp
+Created by Ali Attash Saify Inspired by the Jonas Schmedtmann Node.js Bootcamp
 
 📜 License
 
