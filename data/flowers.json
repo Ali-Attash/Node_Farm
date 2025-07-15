@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Rose",
+    "emoji": "🌹",
+    "color": "red",
+    "fragrance": "strong",
+    "pricePerStem": 2.5
+  },
+  {
+    "name": "Tulip",
+    "emoji": "🌷",
+    "color": "pink",
+    "fragrance": "light",
+    "pricePerStem": 1.8
+  },
+  {
+    "name": "Sunflower",
+    "emoji": "🌻",
+    "color": "yellow",
+    "fragrance": "none",
+    "pricePerStem": 1.2
+  },
+  {
+    "name": "Cherry Blossom",
+    "emoji": "🌸",
+    "color": "soft pink",
+    "fragrance": "light",
+    "pricePerStem": 3.0
+  },
+  {
+    "name": "Hibiscus",
+    "emoji": "🌺",
+    "color": "bright red",
+    "fragrance": "mild",
+    "pricePerStem": 2.0
+  },
+  {
+    "name": "Lotus",
+    "emoji": "🪷",
+    "color": "white",
+    "fragrance": "strong",
+    "pricePerStem": 2.8
+  },
+  {
+    "name": "Blossom",
+    "emoji": "💮",
+    "color": "pale pink",
+    "fragrance": "mild",
+    "pricePerStem": 2.2
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Apple",
+    "emoji": "🍎",
+    "color": "red",
+    "flavor": "sweet-tart",
+    "pricePerKg": 3.5
+  },
+  {
+    "name": "Banana",
+    "emoji": "🍌",
+    "color": "yellow",
+    "flavor": "sweet",
+    "pricePerKg": 1.2
+  },
+  {
+    "name": "Cherry",
+    "emoji": "🍒",
+    "color": "dark red",
+    "flavor": "sweet",
+    "pricePerKg": 5.0
+  },
+  {
+    "name": "Grapes",
+    "emoji": "🍇",
+    "color": "purple",
+    "flavor": "sweet-tangy",
+    "pricePerKg": 2.8
+  },
+  {
+    "name": "Watermelon",
+    "emoji": "🍉",
+    "color": "green outside, red inside",
+    "flavor": "mildly sweet",
+    "pricePerKg": 0.9
+  },
+  {
+    "name": "Strawberry",
+    "emoji": "🍓",
+    "color": "bright red",
+    "flavor": "sweet-tart",
+    "pricePerKg": 4.0
+  },
+  {
+    "name": "Pineapple",
+    "emoji": "🍍",
+    "color": "golden yellow",
+    "flavor": "tangy-sweet",
+    "pricePerKg": 2.5
+  },
+  {
+    "name": "Peach",
+    "emoji": "🍑",
+    "color": "peachy-orange",
+    "flavor": "juicy sweet",
+    "pricePerKg": 3.0
+  },
+  {
+    "name": "Mango",
+    "emoji": "🥭",
+    "color": "golden-yellow",
+    "flavor": "rich sweet",
+    "pricePerKg": 3.2
+  },
+  {
+    "name": "Lemon",
+    "emoji": "🍋",
+    "color": "yellow",
+    "flavor": "sour",
+    "pricePerKg": 1.0
+  }
+]

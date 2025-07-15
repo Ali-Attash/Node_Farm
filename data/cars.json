@@ -1,0 +1,50 @@
+[
+  {
+    "brand": "Tesla",
+    "model": "Model S",
+    "emoji": "⚡🚗",
+    "color": "midnight silver",
+    "type": "electric",
+    "priceUSD": 89990
+  },
+  {
+    "brand": "Toyota",
+    "model": "Corolla",
+    "emoji": "🚘",
+    "color": "white",
+    "type": "sedan",
+    "priceUSD": 20000
+  },
+  {
+    "brand": "BMW",
+    "model": "X5",
+    "emoji": "🚙",
+    "color": "black",
+    "type": "SUV",
+    "priceUSD": 61000
+  },
+  {
+    "brand": "Ford",
+    "model": "F-150",
+    "emoji": "🛻",
+    "color": "blue",
+    "type": "pickup",
+    "priceUSD": 47000
+  },
+  {
+    "brand": "Honda",
+    "model": "Civic",
+    "emoji": "🚗",
+    "color": "red",
+    "type": "compact",
+    "priceUSD": 23000
+  },
+  {
+    "brand": "Lamborghini",
+    "model": "Huracán",
+    "emoji": "🏎️🔥",
+    "color": "lime green",
+    "type": "supercar",
+    "priceUSD": 200000
+  }
+]
