@@ -2,17 +2,17 @@
 
 This is a simple vanilla Node.js server that dynamically serves an overview page and detailed product pages using HTML templates and a local JSON data file. No frameworks (like Express) are used — only core Node.js modules.
 
-# 📁 Project Structure
+## 📁 Project Structure
 
+```
+project-root/
 ├── dev-data/
 │   └── data.json               # Product data in JSON format
 ├── templates/
 │   ├── template-overview.html # HTML layout for the overview page
 │   ├── template-product.html  # HTML layout for individual product pages
-│   └── template-card.html     # Template for reusable product cards
-├── style.css                  # Optional styling file (served separately)
-├── server.js                  # Main Node.js server logic
-└── README.md                  # Project documentation
+│   └── template-card.html
+
 
 ## 🚀 Features
 
