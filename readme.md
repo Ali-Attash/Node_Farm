@@ -45,7 +45,7 @@ node server.js
 
 Go to http://localhost:3030
 
-##🌐 Available Routes
+## 🌐 Available Routes
 
 Route
 
@@ -63,7 +63,7 @@ Shows detailed view for a product
 
 Returns raw product data (JSON format)
 
-##🧠 How It Works
+## 🧠 How It Works
 
 server.js reads HTML templates and product data from the file system at startup.
 
@@ -75,7 +75,7 @@ Based on the pathname, the server decides which HTML content to return
 
 The fillTemplate() helper injects product values into placeholders
 
-##📦 Sample Product Data
+## 📦 Sample Product Data
 
 {
   "id": 0,
@@ -89,13 +89,13 @@ The fillTemplate() helper injects product values into placeholders
   "organic": true
 }
 
-##📌 Notes
+## 📌 Notes
 
 This project is meant for educational purposes and basic Node.js practice.
 
 You can expand this by adding CSS, static file serving, or migrate to Express.js for advanced routing and middleware.
 
-##👨‍💻 Author
+## 👨‍💻 Author
 
 Created by Ali Attash SaifyInspired by the Jonas Schmedtmann Node.js Bootcamp
 
